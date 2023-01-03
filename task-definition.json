@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::406558015463:role/myEcsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::214327896850:role/myEcsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -64,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:406558015463:task-definition/planA-task:2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:214327896850:task-definition/planA-task:1",
   "family": "planA-task",
   "requiresAttributes": [
     {
@@ -105,7 +105,7 @@
   "networkMode": "awsvpc",
   "runtimePlatform": null,
   "cpu": "1024",
-  "revision": 2,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
